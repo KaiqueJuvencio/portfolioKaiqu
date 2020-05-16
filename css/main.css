@@ -1652,10 +1652,8 @@ padding-bottom: 10px;
 h1 {
   font-size: 3em;
 }
-.testando{
-  display: flex;
-  flex-direction: row;
+.modal-content{
+  width: 90%;
 }
-
 
 }
