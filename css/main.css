@@ -6,7 +6,6 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
-  margin-bottom: 5%;
   padding: 0;
 }
 
@@ -791,7 +790,7 @@ body {
 /* Labels */
 .label {
   display: inline;
-  padding: .25em .6em;
+  padding: .15em .6em;
   font-size: 90%;
   font-weight: 500;
   line-height: 1;
@@ -913,8 +912,8 @@ input[type=text], .project_description, input[type=url] {
 .project_submit {
   background-color: #4CAF50;
   color: white;
-  padding: 14px 20px;
-  margin: 5px 26px;
+  padding: 1px 20px;
+  margin: 5px 35%;
   border: none;
   cursor: pointer;
   width: 85%;
