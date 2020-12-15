@@ -390,6 +390,13 @@
               <div class="project-section">
                 <div class="project-container">
                   <div class="project-img-container"
+                    onclick="document.getElementById('modal-wrapper-fortunator').style.display='block'">
+                    <img class="img-corona" src="./images/fortunator.png" alt="project image" width="120px" height="120px">
+                  </div>
+                  <p class="project-title">Fortunator</p>
+                </div>
+                <div class="project-container">
+                  <div class="project-img-container"
                     onclick="document.getElementById('modal-wrapper-covid').style.display='block'">
                     <img class="img-corona" src="./images/corona.png" alt="project image">
                   </div>
@@ -398,17 +405,40 @@
                 <div class="project-container">
                   <div class="project-img-container"
                     onclick="document.getElementById('modal-wrapper').style.display='block'">
-                    <img src="images/trackDonationLogo.png" alt="project image" width="150" height="160px">
+                    <img src="images/trackDonationLogo.png" alt="project image" width="150" height="160px" style="margin-left: 10%;">
                   </div>
                   <p class="project-title">Track Donation IRES</p>
                 </div>
                 <div class="project-container">
                   <div class="project-img-container"
                     onclick="document.getElementById('modal-wrapper-itiban').style.display='block'">
-                    <img src="images/itibanLogo.png" alt="project image" width="150" height="160px">
+                    <img src="images/itibanLogo.png" alt="project image" width="150" height="160px" style="margin-left: 13%;">
                   </div>
                   <p class="project-title">Itiban Sinalização</p>
                 </div>
+              </div>
+
+              <div id="modal-wrapper-fortunator" class="modal">
+                <form class="modal-content animate">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('modal-wrapper-fortunator').style.display='none'" class="close"
+                      title="Close PopUp">&times;</span>
+                    <img src="./images/fortunator.png" alt="project" class="avatar">
+                    <h1 class="project_details" style="text-align:center">Fortunator Details</h1>
+                  </div>
+                  <div class="container">
+                    <!-- <input type="text" placeholder="Project Name" name="uname" readonly>
+                    <textarea class="project_description" rows="3" placeholder="Project Description"
+                      readonly></textarea> -->
+                    <!-- <input type="url" placeholder="teste" readonly>
+                    <input type="text" placeholder="Languages used" readonly> -->
+                    <p class="project_description">💸 Fortunator é uma aplicação web de controle financeiro que permite que o usuário tenha uma maior visualização de seus gastos e movimentações financeiras do dia-a-dia.</p>
+                    
+                  </div>
+                  <a class="project_submit" href="https://github.com/KaiqueJuvencio/covid-check" target="_blank">
+                    Access
+                  </a>
+                </form>
               </div>
 
               <div id="modal-wrapper" class="modal">
@@ -425,7 +455,7 @@
                       readonly></textarea> -->
                     <!-- <input type="url" placeholder="teste" readonly>
                     <input type="text" placeholder="Languages used" readonly> -->
-                    <p class="project_description">🌎 Projeto desenvolvido de forma voluntária para a Organização <a href="https://www.iresoficial.org/">IRES</a> para o gerenciamento de doadores e receptores de cestas básicas. Tendo também como função, dar um feedback para o doador de qual foi o destino de sua doação com o nome da família e foto (se autorizado pelo receptor).</p>
+                    <p class="project_description">🌎 Projeto desenvolvido de forma voluntária para a Organização <a href="https://www.iresoficial.org/">IRES</a> para o gerenciamento de doadores e receptores de cestas básicas. <br><br>Tendo também como função, dar um feedback para o doador de qual foi o destino de sua doação com o nome da família e foto (se autorizado pelo receptor).</p>
                   </div>
                   <a class="project_submit" href="https://github.com/KaiqueJuvencio/trackDonation" target="_blank">
                     Access
@@ -447,7 +477,7 @@
                       readonly></textarea> -->
                     <!-- <input type="url" placeholder="teste" readonly>
                     <input type="text" placeholder="Languages used" readonly> -->
-                    <p class="project_description">☢ Projeto desenvolvido com foco na conscientização popular em relação ao COVID-19, passando informações concretas, relevantes e de fácil entendimento. Conta também com responsividade e apreço à experiência do usuário.</p>
+                    <p class="project_description">⛔ Projeto desenvolvido com foco na conscientização popular em relação ao COVID-19, passando informações concretas, relevantes e de fácil entendimento.<br><br> Conta também com responsividade e apreço à experiência do usuário.</p>
                     
                   </div>
                   <a class="project_submit" href="https://github.com/KaiqueJuvencio/covid-check" target="_blank">
@@ -470,8 +500,7 @@
                       readonly></textarea> -->
                     <!-- <input type="url" placeholder="teste" readonly>
                     <input type="text" placeholder="Languages used" readonly> -->
-                    <p class="project_description">A Itiban atua na área de jeans e está ingressando no ramo de placas de sinalização. Este site foi projetado para divulgação dos novos produtos.</p>
-                    
+                    <p class="project_description">👔 A Itiban atua na área de jeans e está ingressando no ramo de placas de sinalização. <br><br>Este site foi projetado para divulgação dos novos produtos.</p>
                   </div>
                   <a class="project_submit" href="http://itibansinalizacao.com.br/" target="_blank">
                     Access
