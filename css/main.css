@@ -1477,6 +1477,13 @@ body {
   background: rgb(248,248,248);
 }
 
+.role {
+  display: inline-block;
+  font-size: 20px;
+  padding: 4% 11px;
+  background: rgb(248,248,248);
+}
+
 .desc {
   margin: 1em 0.75em 0 0;
   
