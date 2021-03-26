@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -1383,9 +1384,10 @@ body {
 }
 
 .flag {
+  background: #b1008a;
+  color: white;
   position: relative;
   display: inline;
-  background: rgb(248,248,248);
   padding: 6px 10px;
   border-radius: 5px;
   
@@ -1455,7 +1457,7 @@ body {
 
 .time-wrapper {
   display: inline;
-  padding-top: 10px;
+  padding-top: 7px;
   line-height: 1em;
   padding-left: 16px;
   font-size: 0.66666em;
@@ -1480,7 +1482,7 @@ body {
 
 .role {
   display: inline-block;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding: 4% 11px;
   background: rgb(248,248,248);
@@ -1524,7 +1526,8 @@ body {
 }
 
 .flag {
-	background: rgb(255,255,255);
+	background: #b1008a;
+  color: white;
 	z-index: 15;
 }
 
@@ -1666,3 +1669,5 @@ h1 {
 }
 
 }
+
+
