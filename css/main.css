@@ -989,7 +989,7 @@ input[type=text], .project_description, input[type=url] {
   height: 32px;
   /* Can be anything */
   position: relative;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #c0c0c0;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
